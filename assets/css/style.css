@@ -151,7 +151,7 @@ img { max-width: 100%; }
 
 .btn-top-white:hover, .btn-top-white:focus, .btn-top-white:active, .btn-top-white.active {
 	background: #323A45;
-    border: 1px solid #323A45;
+    border: 1px solid #ffffff;
 	color: #fff;
     -o-transition: all .3s;
     -moz-transition: all .3s;
