@@ -8,7 +8,7 @@ function isEmail($email) {
 if($_POST) {
 
     // Enter the email where you want to receive the message
-    $emailTo = 'theme.site.design@gmail.com';
+    $emailTo = 'fix@doum.it';
 
     $clientEmail = addslashes(trim($_POST['email']));
     $subject = addslashes(trim($_POST['subject']));
@@ -21,7 +21,7 @@ if($_POST) {
     }
     if($subject == '') {
         $array['subjectMessage'] = 'Empty subject!';
-    }
+    }350
     if($message == '') {
         $array['messageMessage'] = 'Empty message!';
     }
