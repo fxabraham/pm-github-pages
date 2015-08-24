@@ -278,14 +278,12 @@
             <div class="row">
                 <div class="col-sm-7 form-group contact-form">
                     <h4>Send Message</h4>
-                    <form accept-charset="UTF-8" action="https://formkeep.com/f/e420dc28ecff" method="POST">
-                    <input type="hidden" name="utf8" value="✓">
-                    <button type="submit">Submit</button>
+                    <form method="post" action="assets/contact.php">
+                        <input type="text" name="email" placeholder="Email" class="form-control contact-email">
+                        <input type="text" name="subject" placeholder="Subject" class="form-control contact-subject">
+                        <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-contact">Submit</button>
                     </form>
-
-                    <input type="email" name="email" placeholder="Your Email">
-                    <input type="text" name="name" placeholder="Your Name">
-                    <input type="url" name="url" placeholder="Your Website">
                 </div>
                 <div class="col-sm-5 contact-address contact-about">
                     <h4>About Us</h4>
