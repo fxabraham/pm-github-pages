@@ -405,9 +405,9 @@ color: #888;
 
 
 .top-content .description {
-	margin: 40px 0 10px 0;
+	margin: 25px 0 10px 0;
     font-size: 28px;
-    line-height: 38px;
+    line-height: 25px;
 	font-weight: 400;
 }
 
@@ -1157,7 +1157,7 @@ margin-left: -21px;
 .subscribe-container {
 	margin: 0 auto;
 	padding-bottom: 50px;
-	background: #f4f4f4;
+	background: #f9f9f9;
 	color: #888;
     text-align: center;
 }
@@ -1708,5 +1708,10 @@ label.checkbox-inline{
 }
 
 div.map {
-    height: 300px;
+  height: 300px;
+}
+
+p.programme{
+  font-style: bold;
+
 }
